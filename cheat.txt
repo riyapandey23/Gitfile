@@ -1,0 +1,41 @@
+git config --global user.name  shreeram
+git config --global user.email riyapandey3764@gmail.com
+code . # to open git folder vs code  
+git status  / git status -s 
+git add index.html #add in git  # to update in git  after making changes do run this command  to stages files then commit it 
+git commit # add changes 
+touch contact.py  #create file 
+git add -A # to add file simultaneously 
+git checkout filename # to role back changes in the file means cancel the recent changes only run before add  and commit command is used 
+git checkout -f # to role back in multiple files 
+git log # to see what chaanges are done 
+git log -p -n # to see specifi number of log 'n' represent the number of log want to see  u can see more detailed log 
+git diff # to see what changes are done 
+git commit -a -m "comment or context" # if u  dont want to run add command and directly want to commit the changes
+ (avoid mostly got step wise 1 stauts 2 add 3 commit )
+ls # to list the files 
+git rm -f filename # force removal of file 
+git rm --cached (filename  / *.py / -r. / foldername/* ) # to remove file from staged 
+git rm -r --cached foldername  # to remove folder
+git -rf repo # to remove repo
+touch  .gitignore # bash will ignore all the opreation on the file mentioned in this file 
+/ file name # only ignore the file which are seen like whhich are not in the folder 
+*.log # ignore all file having log that is .py 
+ignore/ #  declare .gitignore as a folder or file 
+git branch # to see branch 
+git branch branchname # to create branch 
+git cheakout branchname # to swtich branch
+git checkout -b branchname # to create and switch into a branch simultaneously
+git remote add origin https://github.com/shreeramparab/Git-repository.git # create remote named origin 
+git remote rename origin (old name) myremote (new name) # rename remote
+git remote # to see the remote 
+git remote -v # to see the url link 
+git push origin master (branch) # push master branch into origin that is the  url 
+git remote set-url origin(remote name ) new_url 
+git pull  # to fetch form repo 
+git push # to send into Git-repository
+git clone url # to clone a repo 
+git submodule add <repo-url> face # to convert repo into submodule 
+echo  "foldername/" >> .gitignore # to ignore this by git 
+git branch -d/-D branchname # to delete the branch 
+git remote remove origin # to remove remote 
