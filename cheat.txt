@@ -9,7 +9,7 @@ git add -A # to add file simultaneously
 git checkout filename # to role back changes in the file means cancel the recent changes only run before add  and commit command is used 
 git checkout -f # to role back in multiple files 
 git log # to see what chaanges are done 
-git log -p -n # to see specifi number of log 'n' represent the number of log want to see  u can see more detailed log 
+git log -p -n # to see specifi number of log 'n' represent the number of log want to see u can see more detailed log 
 git diff # to see what changes are done 
 git commit -a -m "comment or context" # if u  dont want to run add command and directly want to commit the changes
  (avoid mostly got step wise 1 stauts 2 add 3 commit )
@@ -32,6 +32,9 @@ git remote # to see the remote
 git remote -v # to see the url link 
 git push origin master (branch) # push master branch into origin that is the  url 
 git remote set-url origin(remote name ) new_url 
+git remote add secondrepo <link to the secnod repo>  # To add new remote
+git remote remove secondrepo 
+git push secondrepo <branch name "main" or "master">
 git pull  # to fetch form repo 
 git push # to send into Git-repository
 git clone url # to clone a repo 
