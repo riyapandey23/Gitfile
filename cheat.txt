@@ -25,6 +25,7 @@ ignore/ #  declare .gitignore as a folder or file
 git branch # to see branch 
 git branch branchname # to create branch 
 git cheakout branchname # to swtich branch
+git branch -m master main
 git checkout -b branchname # to create and switch into a branch simultaneously
 git remote add origin https://github.com/shreeramparab/Git-repository.git # create remote named origin 
 git remote rename origin (old name) myremote (new name) # rename remote
@@ -32,9 +33,6 @@ git remote # to see the remote
 git remote -v # to see the url link 
 git push origin master (branch) # push master branch into origin that is the  url 
 git remote set-url origin(remote name ) new_url 
-git remote add secondrepo <link to the secnod repo>  # To add new remote
-git remote remove secondrepo 
-git push secondrepo <branch name "main" or "master">
 git pull  # to fetch form repo 
 git push # to send into Git-repository
 git clone url # to clone a repo 
@@ -42,3 +40,8 @@ git submodule add <repo-url> face # to convert repo into submodule
 echo  "foldername/" >> .gitignore # to ignore this by git 
 git branch -d/-D branchname # to delete the branch 
 git remote remove origin # to remove remote 
+rm -rf .git # remove git from particular folder
+git lfs install # to install  
+git lfs track "filename"
+git add .gitattributes
+git commit -m "changes"
