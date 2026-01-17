@@ -1,4 +1,4 @@
-git config --global user.name  shreeram
+git config --global user.name  riya
 git config --global user.email riyapandey3764@gmail.com
 code . # to open git folder vs code  
 git status  / git status -s 
